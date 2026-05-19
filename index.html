@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aayush | Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aayush Aryan | Resume</title>
 
   <style>
     body {
@@ -21,153 +21,131 @@
       padding: 40px 0;
     }
 
-    .hero {
+    .header {
       text-align: center;
       background: #1e293b;
       padding: 40px;
       border-radius: 20px;
     }
 
-    .hero img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      margin-top: 10px;
-      object-fit: cover;
-      border: 3px solid #334155;
-    }
-
     h1 {
-      margin: 10px 0;
+      margin-bottom: 5px;
       font-size: 2.5rem;
     }
 
+    .contact {
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+
     .links a {
-      margin: 5px;
       display: inline-block;
-      padding: 10px 15px;
+      margin: 5px;
+      padding: 8px 14px;
       background: #2563eb;
       color: white;
       text-decoration: none;
-      border-radius: 10px;
-    }
-
-    .links a:hover {
-      background: #1d4ed8;
+      border-radius: 8px;
     }
 
     .section {
       margin-top: 25px;
       padding: 25px;
       background: #1e293b;
-      border-radius: 20px;
+      border-radius: 15px;
     }
 
     h2 {
       color: #60a5fa;
       border-bottom: 1px solid #334155;
-      padding-bottom: 8px;
+      padding-bottom: 6px;
+      margin-bottom: 15px;
     }
 
-    .skill {
-      display: inline-block;
-      background: #334155;
-      padding: 8px 12px;
-      margin: 5px;
-      border-radius: 8px;
+    .item-title {
+      font-weight: bold;
+      color: #f8fafc;
     }
 
-    .project {
-      margin-top: 15px;
-      padding: 15px;
-      background: #0f172a;
-      border-radius: 10px;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 30px;
+    .muted {
       color: #94a3b8;
+      font-size: 0.95rem;
     }
+
+    ul {
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
   </style>
 </head>
 
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <section class="hero">
-      <h1>Aayush</h1>
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Aayush Aryan</h1>
+    <div class="contact">
+      Computer Science Student <br>
+      aayushar1601@gmail.com | +91 6206838001 | Jamshedpur, Jharkhand, India
+    </div>
 
-      <img src="aayush-2.jpeg" alt="Aayush Profile">
-
-      <p>Full Stack Developer | Python | FastAPI | Next.js</p>
-
-      <div class="links">
-        <a href="https://github.com/aayush-aryan-0" target="_blank">GitHub</a>
-        <a href="mailto:aayushar1601@gmail.com">Email</a>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>About Me</h2>
-      <p>
-        Backend-focused developer building scalable systems, APIs, and web apps.
-        Interested in authentication systems, databases, and clean architecture.
-      </p>
-    </section>
-
-    <section class="section">
-      <h2>Skills</h2>
-      <div>
-        <span class="skill">Python</span>
-        <span class="skill">FastAPI</span>
-        <span class="skill">JavaScript</span>
-        <span class="skill">TypeScript</span>
-        <span class="skill">Next.js</span>
-        <span class="skill">React</span>
-        <span class="skill">PostgreSQL</span>
-        <span class="skill">SQLAlchemy</span>
-        <span class="skill">Git</span>
-        <span class="skill">HTML/CSS</span>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Projects</h2>
-
-      <div class="project">
-        <h3>Java Desktop Todo List</h3>
-        <p>
-          Offline desktop task manager using JavaFX with SQLite persistence.
-          Includes CRUD operations and Maven-based build system.
-        </p>
-      </div>
-
-      <div class="project">
-        <h3>Flask Todo Web App</h3>
-        <p>
-          Multi-user task manager using Flask + SQLite with authentication,
-          session handling, and Telegram reminder integration.
-        </p>
-      </div>
-
-    </section>
-
-    <section class="section">
-      <h2>Education</h2>
-      <p>
-        <strong>KIIT</strong><br>
-        B.Tech in Computer Science<br>
-        2024 – 2028
-      </p>
-    </section>
-
-    <footer>
-      © 2026 Aayush
-    </footer>
-
+    <div class="links">
+      <a href="https://github.com/aayush-aryan-0" target="_blank">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">LeetCode</a>
+    </div>
   </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <h2>Education</h2>
+
+    <p class="item-title">Kalinga Institute of Industrial Technology (KIIT)</p>
+    <p class="muted">
+      B.Tech in Computer Science Engineering (CSE)<br>
+      2024 – 2028 | Bhubaneswar, Odisha, India<br>
+      CGPA: 8.58 / 10
+    </p>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <h2>Skills</h2>
+
+    <p><span class="item-title">Programming Languages:</span> C, Java, Python, HTML5, CSS, JavaScript</p>
+    <p><span class="item-title">Libraries/Frameworks:</span> Flask, NumPy, Pandas, SciPy, Matplotlib, BeautifulSoup, JavaFX</p>
+    <p><span class="item-title">Tools:</span> Git, VS Code</p>
+    <p><span class="item-title">Databases:</span> SQLite, MySQL, Oracle SQL</p>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <h2>Projects</h2>
+
+    <p class="item-title">Java Desktop Todo List</p>
+    <ul>
+      <li>Built an offline desktop task manager using JavaFX with SQLite storage.</li>
+      <li>Implemented CRUD operations (create, update, delete tasks).</li>
+      <li>Used Apache Maven for dependency management and build automation.</li>
+    </ul>
+
+    <br>
+
+    <p class="item-title">Flask Todo Web App</p>
+    <ul>
+      <li>Built a multi-user task management web app using Flask + SQLite.</li>
+      <li>Implemented authentication and session handling.</li>
+      <li>Added Telegram-based reminder notifications via API.</li>
+    </ul>
+  </div>
+
+</div>
 
 </body>
 </html>
