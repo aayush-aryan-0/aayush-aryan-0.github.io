@@ -3,21 +3,108 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Resume</title>
+  <title>Aayush | Resume</title>
 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    .hero {
+      text-align: center;
+      background: #1e293b;
+      padding: 40px;
+      border-radius: 20px;
+    }
+
+    .hero img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-top: 10px;
+      object-fit: cover;
+      border: 3px solid #334155;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 2.5rem;
+    }
+
+    .links a {
+      margin: 5px;
+      display: inline-block;
+      padding: 10px 15px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+
+    .links a:hover {
+      background: #1d4ed8;
+    }
+
+    .section {
+      margin-top: 25px;
+      padding: 25px;
+      background: #1e293b;
+      border-radius: 20px;
+    }
+
+    h2 {
+      color: #60a5fa;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 8px;
+    }
+
+    .skill {
+      display: inline-block;
+      background: #334155;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 8px;
+    }
+
+    .project {
+      margin-top: 15px;
+      padding: 15px;
+      background: #0f172a;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #94a3b8;
+    }
+  </style>
 </head>
+
 <body>
 
   <div class="container">
 
     <section class="hero">
-      <h1>Aayush/h1>
-        <img src="/aayush-2.jpeg">
+      <h1>Aayush</h1>
+
+      <img src="aayush-2.jpeg" alt="Aayush Profile">
+
       <p>Full Stack Developer | Python | FastAPI | Next.js</p>
 
       <div class="links">
         <a href="https://github.com/aayush-aryan-0" target="_blank">GitHub</a>
-      
         <a href="mailto:aayushar1601@gmail.com">Email</a>
       </div>
     </section>
@@ -25,26 +112,24 @@
     <section class="section">
       <h2>About Me</h2>
       <p>
-        Passionate developer focused on building scalable web applications,
-        backend systems, and modern user interfaces. Interested in system design,
-        security, and open-source development.
+        Backend-focused developer building scalable systems, APIs, and web apps.
+        Interested in authentication systems, databases, and clean architecture.
       </p>
     </section>
 
     <section class="section">
       <h2>Skills</h2>
-
-      <div class="skills">
-        <div class="skill">Python</div>
-        <div class="skill">FastAPI</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">TypeScript</div>
-        <div class="skill">Next.js</div>
-        <div class="skill">React</div>
-        <div class="skill">PostgreSQL</div>
-        <div class="skill">SQLAlchemy</div>
-        <div class="skill">Git</div>
-        <div class="skill">HTML/CSS</div>
+      <div>
+        <span class="skill">Python</span>
+        <span class="skill">FastAPI</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">TypeScript</span>
+        <span class="skill">Next.js</span>
+        <span class="skill">React</span>
+        <span class="skill">PostgreSQL</span>
+        <span class="skill">SQLAlchemy</span>
+        <span class="skill">Git</span>
+        <span class="skill">HTML/CSS</span>
       </div>
     </section>
 
@@ -52,40 +137,35 @@
       <h2>Projects</h2>
 
       <div class="project">
-        <h3> JAVA DESKTOP TODO LIST | Link Java, CSS</h3>
+        <h3>Java Desktop Todo List</h3>
         <p>
-        
-Built an offline desktop task manager using JavaFX with persistent task storage in SQLite .
-Implemented task creation, update, and deletion with a graphical user interface. • Managed the full software lifecycle using Apache Maven for dependency management and automated
-build configurations.
-
-
+          Offline desktop task manager using JavaFX with SQLite persistence.
+          Includes CRUD operations and Maven-based build system.
         </p>
       </div>
 
       <div class="project">
-        <h3>TODO LIST WEB APP | Link Python, HTML, CSS</h3>
+        <h3>Flask Todo Web App</h3>
         <p>
-          Built a multi-user task management web application using Flask with SQLite for persistent storage. Implemented CRUD operations for tasks (create, update, delete, completion tracking).
-Designed user authentication and session handling for multiple users. Integrated Telegram-based reminder notifications via API; additional notification channels under development.
+          Multi-user task manager using Flask + SQLite with authentication,
+          session handling, and Telegram reminder integration.
         </p>
       </div>
-
-    
 
     </section>
 
     <section class="section">
       <h2>Education</h2>
-
       <p>
         <strong>KIIT</strong><br>
-        Bachelor’s Degree in Computer Science<br>
-        2024 - 2028
+        B.Tech in Computer Science<br>
+        2024 – 2028
       </p>
     </section>
 
-    
+    <footer>
+      © 2026 Aayush
+    </footer>
 
   </div>
 
